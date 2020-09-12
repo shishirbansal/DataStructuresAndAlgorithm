@@ -1,0 +1,99 @@
+
+#Note considering the worst case scenario Big-o Notation
+
+
+
+#Task0.py
+
+O(1) 
+
+reason:  the complexity is constant
+
+
+
+
+
+
+#########################################################################
+
+#Task1.py
+
+
+Since we are using two inputs(calls csv, text csv) so I will put seperate time complexity
+
+
+for text csv  --> O(2n)   (approximation)
+for calls csv --> O(2n)    (approximation)
+
+
+total = O(2n) + O(2n) + 4(print statemet and calculating length, decalring set)
+
+
+
+
+
+
+approx = O(n) + O(n)
+
+
+
+n = number of inputs in a Csv
+
+
+
+
+#########################################################################
+
+
+#Task2.py
+
+
+
+using only calls CVS
+
+
+approx ---> O(n)
+
+n = number of inputs in a Csv
+
+
+
+
+########################################################################
+
+
+#Task3.py
+
+
+approx  ---> O(n+nlog n)
+
+n = number of inputs in a Csv
+
+
+
+########################################################################
+
+Task4.py
+
+
+
+O(3n) -- for first two 'for' loops 
+
+O(4n) -- for the third 'for' loop
+
+
+O(n log n)  -- for sorting 
+
+
+
+approx  = O(n) + O(n) + O(nlog n)
+
+n = number of inputs in a Csv
+
+
+
+
+
+
+
+
